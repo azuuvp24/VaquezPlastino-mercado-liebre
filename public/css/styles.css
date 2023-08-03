@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: "Roboto", "sans-serif";
+}
+
+.bg-yellow{
+    background-color: #EAC926;
+}
+
+.bg-light-grey{
+    background-color: #ebebeb;
+}
+
+.bg-white{
+    background-color: #ffffff
+}
+
+.t-1{
+    font-size: 24px;
+}
+
+.t-2{
+    font-size: 18px;
+}
+
+.t-3{
+    font-size: 16px;
+}
+
+.t-4{
+    font-size: 12px;
+}
+
+.t-5{
+    font-size: 10px;
+}
+
+.em{
+    font-size: 2em;
+}
+
+.center{
+    text-align: center;
+}
+
+.burger-menu{
+    color: #ebebeb;
+    text-align: center;
+    background-color: #0c6cd3;
+}
+
+.cblue{
+    color: #0c6cd3;
+}
