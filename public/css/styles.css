@@ -1,5 +1,6 @@
 *{
     padding: 0;
+    box-sizing: border-box;
 }
 
 ul{
@@ -8,10 +9,12 @@ ul{
 
 body{
     font-family: "Roboto", "sans-serif";
+    margin: 0;
 }
 
 .bg-yellow{
     background-color: #EAC926;
+    margin: 0;
 }
 
 .bg-light-grey{
@@ -42,8 +45,20 @@ body{
     font-size: 10px;
 }
 
-.em{
-    font-size: 2em;
+.t-green{
+    color: #39b54a;
+}
+
+.t-grey{
+    color: #666;
+}
+
+.d-hide{
+    display: none;
+}
+
+.pad{
+    padding-top: 30px;
 }
 
 .center{
@@ -54,8 +69,62 @@ body{
     color: #ebebeb;
     text-align: center;
     background-color: #0c6cd3;
-}
+    padding:10px;
+    border-radius: 3px;
+}    
 
 .cblue{
     color: #0c6cd3;
+}
+
+.vw-90{
+    margin:auto;
+    width: 90vw;
+
+}
+
+img{
+    width: 100%;
+}
+
+.em{
+    font-size: 2em;
+}
+
+.m-10{
+    margin-bottom: 10px;
+}
+
+.box{
+    display:block;
+    border-top: 1px solid #ebebeb;
+    padding: 15px
+}
+
+.truck{
+    color: #39b54a;
+}
+
+@media (min-width:361px) {
+    .b-s{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .d-hide{
+        display:block;
+    }
+    .d-block{
+        display: none;
+    }
+}
+
+@media (min-width:769px){
+    .b-s{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .d-hide{
+        display: block;
+    }
+    .d-block{
+        display: none;
+    }
 }
