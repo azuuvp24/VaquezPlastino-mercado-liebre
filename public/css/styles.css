@@ -15,6 +15,8 @@ body{
 .bg-yellow{
     background-color: #EAC926;
     margin: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .bg-light-grey{
@@ -22,7 +24,8 @@ body{
 }
 
 .bg-white{
-    background-color: #ffffff
+    background-color: #ffffff;
+    padding-bottom: 7px;
 }
 
 .t-1{
@@ -68,8 +71,10 @@ body{
 .burger-menu{
     color: #ebebeb;
     text-align: center;
+    width: 13%;
     background-color: #0c6cd3;
     padding:10px;
+    margin-left: 45%;
     border-radius: 3px;
 }    
 
@@ -80,7 +85,6 @@ body{
 .vw-90{
     margin:auto;
     width: 90vw;
-
 }
 
 img{
@@ -96,13 +100,43 @@ img{
 }
 
 .box{
-    display:block;
+    display: flex;
+    flex-wrap: wrap;
     border-top: 1px solid #ebebeb;
-    padding: 15px
+    padding: 15px;
+    position: relative;
+}
+
+.w-30{
+    display:flex;
+    width:30%
+}
+
+.w-50{
+    display: flex;
+    width: 50%;
+}
+
+.w-70{
+    display:flex;
+    width:70%;
+    align-items: center;
+    justify-content: center;
 }
 
 .truck{
     color: #39b54a;
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
 @media (min-width:361px) {
@@ -110,10 +144,41 @@ img{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     .d-hide{
-        display:block;
+        display: block;
     }
     .d-block{
         display: none;
+    }
+    .w-50{
+        display: flex;
+        width: 50%;
+    }
+    .f-align{
+        align-self: center;
+    }
+    .center{
+        align-self: center;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .img-flex{
+        width: 48%
+    }
+    .nav-flex-left{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 26px
+    }
+    .nav-flex-right{
+        display: flex;
+        justify-content: flex-start;
+        padding-right: 16px
+    }
+    .space{
+        padding-right: 8px;
     }
 }
 
@@ -126,5 +191,32 @@ img{
     }
     .d-block{
         display: none;
+    }
+    .f-align{
+        align-self: center;
+    }
+    .center{
+        align-self: center;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .img-flex{
+        width: 24.5%
+    }
+    .nav-flex-left{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 38px
+    }
+    .nav-flex-right{
+        display: flex;
+        justify-content: flex-start;
+        padding-right: 28px
+    }
+    .space{
+        padding-right: 18px;
     }
 }
