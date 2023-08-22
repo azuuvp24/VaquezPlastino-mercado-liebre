@@ -138,6 +138,10 @@ img{
     width: 90%
 }
 
+.w-100{
+    width: 100%;
+}
+
 .truck{
     color: #39b54a;
     display: block;
@@ -158,7 +162,7 @@ img{
 }
 
 .b-hid{
-    border: hidden;
+    border: none;
 }
 
 .end{
@@ -174,9 +178,29 @@ img{
     margin-left: 30px;
     padding-left: 15px;
     height: 36px;
-    border:#EAC926;
-    border-radius: 5px;  
-    flex-grow: inherit;
+    border:none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.borde{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.borde-envio{
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 95px;
+    font-size: medium;
+    background-color: #0c6cd3;
+    color: #FFF;
+}
+
+.borde-envio:hover{
+    background-color: #0022AA;
 }
 
 .bt-blue{
@@ -185,10 +209,12 @@ img{
     padding: 10px;
     padding-left: 80px;
     padding-right: 80px;
+    text-align: center;
 }
 
 .bt-blue:hover{
     background-color: #0022AA ;
+    color: #FFF;
 }
 
 .description{
@@ -212,6 +238,10 @@ img{
 .n-footer{
     display: flex;
     justify-content: space-around;
+}
+
+.space{
+    color:black
 }
 
 @media (min-width:480px) {
@@ -245,12 +275,10 @@ img{
     .nav-flex-left{
         display: flex;
         justify-content: flex-start;
-        padding-left: 26px
     }
     .nav-flex-right{
         display: flex;
         justify-content: flex-end;
-        padding-right: 16px
     }
     .space{
         padding-right: 8px;
@@ -260,6 +288,9 @@ img{
     }
     .mg-left{
         margin-left:0px
+    }
+    .pad-left{
+        padding-left: 65px;
     }
 }
 
@@ -290,12 +321,10 @@ img{
     .nav-flex-left{
         display: flex;
         justify-content: flex-start;
-        padding-left: 38px
     }
     .nav-flex-right{
         display: flex;
         justify-content: flex-end;
-        padding-right: 28px
     }
     .space{
         padding-right: 18px;
@@ -305,5 +334,8 @@ img{
     }
     .mg-left{
         margin-left:0px
+    }
+    .pad-left{
+        padding-left: 65px;
     }
 }

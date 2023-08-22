@@ -40,9 +40,9 @@
             </nav>
             <nav class="d-hide">
                 <ul class="nav-flex-right">
-                    <li class="space"><a href="/registro">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
-                    <li class="space"><a href="/login">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
-                    <li class="space"><a href="">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+                    <li class="space"><a href="/registro" class="space">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
+                    <li class="space"><a href="/login" class="space">Ingresá</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                    <li class="space"><a href="" class="space">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
                 </ul>
             </nav>
         </div>
@@ -52,21 +52,22 @@
         </div>
     </header>
     <main>
-        <form class="center">
-            <fieldset class="pad-15 b-hid">
-                <h3 class="center"><label for="usuario" class="w-50">Nombre de usuari@ </label></h3>
-                <input type="text" name="user" id="usuario" class="w-90" required>
-            </fieldset>
+        <form class="pad-15">
+            <fieldset>
+                <fieldset class="pad-15 b-hid">
+                    <h3 class="center"><label for="usuario" class="w-50">Nombre de usuari@ </label></h3>
+                    <input type="text" name="user" id="usuario" class="w-100 borde" required>
+                </fieldset>
 
-            <fieldset class="pad-15 b-hid">
-                <h3><label for="contraseña" class="w-50">Contraseña</label></h3>
-                <input type="password" class="w-90" required>
-            </fieldset>
+                <fieldset class="pad-15 b-hid">
+                    <h3><label for="contraseña" class="w-50">Contraseña</label></h3>
+                    <input type="password" class="w-100 borde" required>
+                </fieldset>
 
-            <fieldset class="pad-15 center b-hid">
-                <button class="mg-right bt-blue b-hid"><a href="/">Enviar</a></button>
+                <fieldset class="pad-15 pad-left center b-hid">
+                    <button class="mg-right borde-envio center"><a href="/" class="borde-envio">Enviar</a></button>
+                </fieldset>
             </fieldset>
-
         </form>
     </main>
     <footer class="center bg-white pad-30">
