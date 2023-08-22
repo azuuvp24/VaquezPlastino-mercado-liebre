@@ -60,7 +60,12 @@ body{
     display: none;
 }
 
-.pad{
+.d-hide:hover{
+    display: block;
+    transition: all 12ms
+}
+
+.pad-30{
     padding-top: 30px;
 }
 
@@ -80,6 +85,11 @@ body{
 
 .cblue{
     color: #0c6cd3;
+}
+
+.cblue:hover{
+    color:#EAC926;
+    transition: all 7ms;
 }
 
 .vw-90{
@@ -124,6 +134,10 @@ img{
     justify-content: center;
 }
 
+.w-90{
+    width: 90%
+}
+
 .truck{
     color: #39b54a;
     display: block;
@@ -139,7 +153,67 @@ img{
     top: -15px;
 }
 
-@media (min-width:361px) {
+.pad-15{
+    padding: 15px;  
+}
+
+.b-hid{
+    border: hidden;
+}
+
+.end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mg-left{
+    margin-left: 40px
+}
+
+.search{
+    margin-left: 30px;
+    padding-left: 15px;
+    height: 36px;
+    border:#EAC926;
+    border-radius: 5px;  
+}
+
+.bt-blue{
+    background-color: #0c6cd3;
+    margin: 15px;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.bt-blue:hover{
+    background-color: #0022AA ;
+}
+
+.description{
+    display: none;
+}
+
+.product:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.product:hover .description{
+    display:block;
+    transition:all 5ms;
+}
+
+.deg-90:hover{
+    transform: rotateZ(-90deg);
+    transition: all 5ms;
+}
+
+.n-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width:480px) {
     .b-s{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
@@ -162,7 +236,7 @@ img{
     .flex{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .img-flex{
         width: 48%
@@ -174,11 +248,17 @@ img{
     }
     .nav-flex-right{
         display: flex;
-        justify-content: flex-start;
+        justify-content: flex-end;
         padding-right: 16px
     }
     .space{
         padding-right: 8px;
+    }
+    .mg-right{
+        margin-right: 45px;
+    }
+    .mg-left{
+        margin-left:0px
     }
 }
 
@@ -201,7 +281,7 @@ img{
     .flex{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .img-flex{
         width: 24.5%
@@ -213,10 +293,16 @@ img{
     }
     .nav-flex-right{
         display: flex;
-        justify-content: flex-start;
+        justify-content: flex-end;
         padding-right: 28px
     }
     .space{
         padding-right: 18px;
+    }
+    .mg-right{
+        margin-right: 45px;
+    }
+    .mg-left{
+        margin-left:0px
     }
 }
