@@ -176,6 +176,7 @@ img{
     height: 36px;
     border:#EAC926;
     border-radius: 5px;  
+    flex-grow: inherit;
 }
 
 .bt-blue{
